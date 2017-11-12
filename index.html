@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta  -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The best site in the world!">
+
+        <!-- title -->
+        <title>The Site</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    </head>
+
+    <body>
+       <header class="header">
+           <div class="header_content">
+               <h1 class="logo_text">The Site</h1>
+               <div class="menu_container">
+                    <nav class="top_menu">
+                        <ul class="menu_list">
+                            <li class="menu_list_items"><a href="#">menu link</a></li>
+                            <li class="menu_list_items"><a href="#">menu link</a></li>
+                            <li class="menu_list_items"><a href="#">menu link</a></li>
+                        </ul>                     
+                    </nav>
+                    <nav class="bottom_menu">
+                        <span id="burger_button" class="icon-menu"></span>
+                        <ul class="menu_list" id="bottom_menu_list">
+                            <li class="menu_list_items"><a href="#">menu link</a>
+                                <div class="sub_menu_wrapper">
+                                    <div class="triangle"></div>
+                                    <ul class="sub_menu">
+                                        <li class="sub_menu_items"><a href="#">integer eget mauris</a></li>
+                                        <li class="sub_menu_items"><a href="#">pulvinar consectetur</a></li>
+                                        <li class="sub_menu_items"><a href="#">oget mauris praesent</a></li>
+                                        <li class="sub_menu_items"><a href="#">interdum justo</a></li>
+                                        <li class="sub_menu_items"><a href="#">nec neque fringilla</a></li>                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu_list_items"><a href="#">menu link</a></li>
+                            <li class="menu_list_items"><a href="#">menu link</a></li>
+                            <li class="menu_list_items"><a href="#">menu link</a></li>                                
+                        </ul>                    
+                    </nav>  
+               </div>
+           </div>
+       </header>
+
+       <div class="main_wrapper">
+           <div class="main_content">
+                <article class="main_article">
+                    <h3 class="main_article_header">Aenean ac diam nec neque fringilla</h3>
+                    <p class="main_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+                    <p class="main_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+                    <p class="main_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+                    <p class="main_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+                    <p class="main_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+                </article>
+                <div class="article_group">
+                    <article class="g_article">
+                        <p class="g_article_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius. Dorce pila meracone.</p>
+                    </article>
+                    <article class="g_article">
+                        <h4 class="g_article_header">Aenean ac diam nec neque</h4>
+                        <p class="g_article_p"><a href="#">Integer eget mauris et urna</a></p>
+                        <div class="g_article_line"></div>
+                        <p class="g_article_p"><a href="#">Pulvinar consectetur hendrerit</a></p>
+                        <div class="g_article_line"></div>
+                        <p class="g_article_p"><a href="#">Oget mauris praesent</a></p>
+                    </article>
+                </div>
+            </div>
+           <aside class="aside">
+               <h4 class="aside_header">Aenean ac diam<br>nec neque fringilla</h4>
+               <div class="aside_line"></div>
+               <p class="aside_p">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+               <div class="form_wrapper">
+                   <form class="form" onsubmit="return formValidation()">
+                       <p class="form_text">First name:</p>
+                       <input id="name" class="input_area" type="text" name="name" placeholder="Enter your name">
+                       <p id="span_name" class="error_msg"></p>
+                       <p class="form_text">Last name:</p>
+                       <input id="last_name" class="input_area" type="text" name="last_name" placeholder="Enter your last name">
+                       <p id="span_last_name" class="error_msg"></p>                       
+                       <p class="form_text">Message:</p>
+                       <textarea id="text_area" class="input_area text_area"></textarea>
+                       <p id="span_message" class="error_msg"></p>                                              
+                       <input id="input_button" class="input_button" type="submit" value="Submit">
+                   </form>
+               </div>
+           </aside>
+       </div>
+
+       <div class="highlight_wrapper">
+           <section class="highlight_inner">
+               <article class="highlight_article">
+                   <p class="highlight_text">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+               </article>
+               <article class="highlight_article">
+                   <p class="highlight_text">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+               </article>
+               <article class="highlight_article">
+                   <p class="highlight_text">Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris. Praesent a interdum justo. Aenean ac diam nec neque fringilla cursus. Donec iaculis tortor in nunc vehicula rutrum. Integer malesuada mollis ligula at varius.</p>
+               </article>
+            </section>
+       </div>
+
+       <footer class="footer">
+           <div class="footer_content_wrapper">
+                <nav class="footer_nav">
+                    <ul class="footer_menu_list">
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                        <li class="footer_list_item"><a href="#">menu link</a></li>
+                    </ul>
+                </nav>
+                <section class="footer_section">
+                    <p class="footer_sec_p">Nullam mattis luctus dolor, sed gravida tellus volutpat vel. Maecenas mollis augue sed tortor molestie ornare. Proin dapibus dictum eros ut adipiscing. Nullam ultrices dolor ut tristique sollicitudin. Integer scelerisque urna est, sit amet aliquet sapien accumsan quis. Nullam luctus semper vulputate. Nulla egestas urna nec tellus ultrices elementum. Proin dapibus dictum eros ut adipiscing. Nullam ultrices dolor ut tristique sollicitudin. Integer scelerisque</p>
+                    <h2 class="footer_sec_header">The Site</h2>
+                </section>
+            </div>
+       </footer>
+
+       <script src="scripts/main.js"></script>
+       
+    </body>
+</html>
