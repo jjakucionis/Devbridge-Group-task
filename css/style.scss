@@ -443,6 +443,7 @@ body {
                 border: none;
                 margin: 19px 0px 0px 0px;
                 cursor: pointer;
+                -webkit-appearance: none;
 
                 &:hover {
                     background-color: lighten($header_pink, $amount: 3%);

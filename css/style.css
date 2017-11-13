@@ -296,7 +296,8 @@ body {
           letter-spacing: 0.2em;
           border: none;
           margin: 19px 0px 0px 0px;
-          cursor: pointer; }
+          cursor: pointer;
+          -webkit-appearance: none; }
           body .main_wrapper .aside .form .input_button:hover {
             background-color: #e11460; }
         body .main_wrapper .aside .form .error_msg {
