@@ -75,6 +75,7 @@ body {
             height: 100%;
             right: 0;
             top: 0;
+            width: 400px;
 
             .top_menu {
                 padding-top: 26px;                        
@@ -442,6 +443,7 @@ body {
                 border: none;
                 margin: 19px 0px 0px 0px;
                 cursor: pointer;
+                -webkit-appearance: none;
 
                 &:hover {
                     background-color: lighten($header_pink, $amount: 3%);
@@ -474,7 +476,7 @@ body {
 
         .highlight_article {
             display: inline-block;
-            width: calc(100% / 3);
+            width: calc(100% / 3 - 1px);
 
             & > p {
                 font-family: $sans_font;
@@ -678,6 +680,13 @@ body {
         
                 .aside_p {
                     margin-right: 0px;
+                }
+
+                .form_wrapper {
+
+                    .form {
+                        margin-right: 0;
+                    }
                 }
             }
         }

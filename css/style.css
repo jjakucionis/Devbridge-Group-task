@@ -45,7 +45,8 @@ body {
         margin: 0px 20px 0px 0px;
         height: 100%;
         right: 0;
-        top: 0; }
+        top: 0;
+        width: 400px; }
         body .header .header_content .menu_container .top_menu {
           padding-top: 26px; }
           body .header .header_content .menu_container .top_menu .menu_list {
@@ -295,7 +296,8 @@ body {
           letter-spacing: 0.2em;
           border: none;
           margin: 19px 0px 0px 0px;
-          cursor: pointer; }
+          cursor: pointer;
+          -webkit-appearance: none; }
           body .main_wrapper .aside .form .input_button:hover {
             background-color: #e11460; }
         body .main_wrapper .aside .form .error_msg {
@@ -315,7 +317,7 @@ body {
       background-color: #ccc; }
       body .highlight_wrapper .highlight_inner .highlight_article {
         display: inline-block;
-        width: calc(100% / 3); }
+        width: calc(100% / 3 - 1px); }
         body .highlight_wrapper .highlight_inner .highlight_article > p {
           font-family: "Trebuchet MS", sans-serif;
           font-size: 14px;
@@ -423,6 +425,8 @@ body {
       padding-right: 0px; }
     body .main_wrapper .aside .aside_p {
       margin-right: 0px; }
+    body .main_wrapper .aside .form_wrapper .form {
+      margin-right: 0; }
   body .footer .footer_content_wrapper .footer_section .footer_sec_p {
     width: 75%; }
   body .footer .footer_content_wrapper .footer_section .footer_sec_header {
